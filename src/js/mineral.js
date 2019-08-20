@@ -21,6 +21,14 @@ class Mineral extends Component{
                 <li> * składniki utrzymujące przestrzenną strukturę szeregu związków, np. podwójnej spirali DNA: cynk (Zn)
                     i magnez (Mg).</li>
             </ul>
+            
+            <ul>Innym podziałem składników mineralnych jest podział według kryterium ilościowego:
+                <li>makroelementy (makropierwiastki), których zawartość w organizmie wynosi >0,01%, a dzienne
+                    zapotrzebowanie przekracza 100 mg/osobę; zalicza się do nich: wapń, fosfor, magnez, potas, sód, chlor i siarkę</li>
+                <li>mikroelementy (mikropierwiastki), których zawartość w organizmie jest mniejsza niż 0,01%,
+                    a dzienne zapotrzebowanie nie przekracza 100 mg/osobę; do mikroelementów (pierwiastki śladowe),
+                    zalicza się: żelazo, cynk, miedź, mangan, jod, fluor, selen i chrom.</li>
+            </ul>
         </section>
     }
 }
