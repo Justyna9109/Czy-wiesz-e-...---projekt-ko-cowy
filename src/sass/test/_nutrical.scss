@@ -1,0 +1,33 @@
+.boxMain{
+	display: flex;
+	flex-wrap: wrap;
+}
+#box{
+	width: 250px;
+	height: 100px;
+	margin: 40px 20px 20px 20px;
+	border: 1px solid green;
+	font-size: 25px;
+	text-align: center;
+}
+.box1{
+	background-color: yellow;
+}
+.box2{
+	background-color: papayawhip;
+}
+.box3{
+	background-color: greenyellow;
+}
+.box4{
+	background-color: rosybrown;
+}
+.box5{
+	background-color: cadetblue;
+}
+.box6{
+	background-color: mediumslateblue;
+}
+.box7{
+	background-color: gray;
+}

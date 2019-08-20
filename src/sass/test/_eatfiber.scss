@@ -1,0 +1,15 @@
+.tableEat{
+  display: flex;
+  justify-content: center;
+  table{
+    border:1px solid black;
+    width: 400px;
+    text-align: center;
+    margin-top: 50px;
+    tr{
+    th, td {
+      font-size: 20px;
+    }
+    }
+  }
+}
