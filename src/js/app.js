@@ -1,8 +1,13 @@
 import React,{Component} from 'react';
 import ReactDOM from 'react-dom';
+import Leading from './leading.js';
 import Navigation from './header.js';
+import Section from './section.js';
 import Nutrical from './nutrical.js';
 import News from './news.js';
+import Quiz from './Quiz/quiz.js'
+import Quiz1 from './Quiz1/quiz1.js'
+import Quiz2 from './Quiz2/quiz2.js'
 import Product from './product.js'
 import Piramida from './piramida.js'
 import Protein from './bialka.js'
@@ -32,17 +37,22 @@ class Main extends Component{
                         </header>
                         <section className='sectionTwo'>
                         <Switch>
-                            <Route extact path='/nutrical' component={Nutrical} />
-                            <Route extact path='/piramida' component={Piramida} />
-                            <Route extact path='/protein' component={Protein} />
-                            <Route extact path='/carbohydrates' component={Carbohydrates} />
-                            <Route extact path='/fats' component={Fats} />
-                            <Route extact path='/fiber' component={Fiber} />
-                            <Route extact path='/eatFiber' component={EatFiber} />
-                            <Route extact path='/vitamin' component={Vitamin} />
-                            <Route extact path='/mineral' component={Mineral} />
-                            <Route extact path='/news' component={News} />
-                            <Route extact path='/product' component={Product} />
+                            <Route exact path='/' component={Section} />
+                            <Route exact path='/leading' component={Leading} />
+                            <Route exact path='/nutrical' component={Nutrical} />
+                            <Route exact path='/piramida' component={Piramida} />
+                            <Route exact path='/protein' component={Protein} />
+                            <Route exact path='/carbohydrates' component={Carbohydrates} />
+                            <Route exact path='/fats' component={Fats} />
+                            <Route exact path='/fiber' component={Fiber} />
+                            <Route exact path='/eatFiber' component={EatFiber} />
+                            <Route exact path='/vitamin' component={Vitamin} />
+                            <Route exact path='/mineral' component={Mineral} />
+                            <Route exact path='/news' component={News} />
+                            <Route exact path='/quiz' component={Quiz} />
+                            <Route exact path='/quiz1' component={Quiz1} />
+                            <Route exact path='/quiz2' component={Quiz2} />
+                            <Route exact path='/product' component={Product} />
                         </Switch>
                         </section>
                     </>
@@ -51,6 +61,7 @@ class Main extends Component{
         )
     }
 }
+
 
 ReactDOM.render(<App />, document.getElementById("app"));
 

@@ -33,14 +33,14 @@ class Piramida extends Component{
                 (które można zastąpić owocami) oraz sól (aby jedzenie było smaczne, można wykorzystać zioła).
                 Nie warto pić alkoholu, natomiast należy pić wodę (ok. 1,5 litra dziennie)</p>
 
-            <ul>Przydatne linki</ul>
-            <li>Zmiany piramidy żywieniowej na przestrzeni lat >
-                <a href="https://dietetycy.org.pl/zmiany-piramidy-zywienia-na-przestrzeni-lat/" target='_blank'>link</a></li>
-            <li>Harvardzka piramida żywieniowa >
-                <a href="https://dietetycy.org.pl/harvardzka-piramida-zdrowego-zywienia/" target='_blank'>link</a></li>
+            <ul><a className='link'>Przydatne linki</a>
+            <li>Zmiany piramidy żywieniowej na przestrzeni lat  >
+                <a href="https://dietetycy.org.pl/zmiany-piramidy-zywienia-na-przestrzeni-lat/" target='_blank'>  link</a></li>
+            <li>Harvardzka piramida żywieniowa  >
+                <a href="https://dietetycy.org.pl/harvardzka-piramida-zdrowego-zywienia/" target='_blank'>  link</a></li>
             <li>Pełny opis piramidy znajdziesz na stronie IŻŻ >
-                <a href="http://www.izz.waw.pl/attachments/article/7/Piramida%20Zdrowego%20%C5%BBywienia%20i%20Aktywno%C5%9Bci%20Fizycznej%20Broszura.pdf" target='_blank'>
-                    link</a></li>
+                <a href="http://www.izz.waw.pl/attachments/article/7/Piramida%20Zdrowego%20%C5%BBywienia%20i%20Aktywno%C5%9Bci%20Fizycznej%20Broszura.pdf" target='_blank'>  link</a></li>
+            </ul>
 
         </div>
         </section>

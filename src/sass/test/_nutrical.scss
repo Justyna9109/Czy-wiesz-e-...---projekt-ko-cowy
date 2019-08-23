@@ -1,33 +1,40 @@
 .boxMain{
-	display: flex;
-	flex-wrap: wrap;
+	a {
+		color: black;
+		text-decoration: none;
+		font-family: 'Gloria Hallelujah', cursive;
+		font-weight: bold;
+		margin-left: 130px;
+		margin-top: 90px;
+	}
 }
 #box{
-	width: 250px;
-	height: 100px;
-	margin: 40px 20px 20px 20px;
-	border: 1px solid green;
-	font-size: 25px;
-	text-align: center;
+	height: 250px;
+	margin: 30px 0 40px 0;
+	font-size: 35px;
 }
-.box1{
-	background-color: yellow;
+.box1, .box2, .box3, .box4, .box5, .box6, .box7 {
+	background-image: radial-gradient(circle, #e7dfe9, #e9e1eb, #ece3ed, #eee6f0, #f1e8f2);
+	display: flex;
 }
-.box2{
-	background-color: papayawhip;
+.nutri{
+	width: 280px;
+	height: 250px;
+	margin-left: 160px;
 }
-.box3{
-	background-color: greenyellow;
+.nutri1{
+  margin-left: 265px;
 }
-.box4{
-	background-color: rosybrown;
+.nutri2{
+  margin-left: 215px;
 }
-.box5{
-	background-color: cadetblue;
+.nutri3, .nutri4{
+  margin-left: 220px;
 }
-.box6{
-	background-color: mediumslateblue;
+.nutri5{
+  margin-left: 245px;
 }
-.box7{
-	background-color: gray;
+.nutri6{
+  margin-left: 180px;
+  width: 260px;
 }

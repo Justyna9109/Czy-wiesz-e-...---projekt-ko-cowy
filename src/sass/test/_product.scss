@@ -1,0 +1,37 @@
+.etykiet {
+  font-size: 40px;
+}
+.prod{
+  font-size: 22px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  width: 800px;
+}
+.etyk {
+  margin: 50px 10px 50px 10px;
+  img{
+    margin-left: 100px;
+    width: 250px;
+    height: 250px;
+  }
+}
+.etyk {
+  img:hover {
+    animation: pulse 5s alternate;
+    animation-timing-function: ease-in;
+  }
+}
+
+@keyframes pulse {
+  0% {
+    width: 250px;
+    height: 250px;
+  }
+  100% {
+    width: 350px;
+    height: 350px;
+  }
+}
+
+
+

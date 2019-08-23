@@ -1,6 +1,8 @@
 .pictureFiber{
   display: flex;
   justify-content: center;
+  margin-top: 60px;
+  margin-bottom: 70px;
   img{
     width: 500px;
     height: 500px;
@@ -14,4 +16,31 @@
     width: 850px;
     height: 700px;
   }
+}
+.fiber{
+  h1{
+    font-size: 28px;
+    margin-left: 30px;
+  }
+  p{
+    font-size: 22px;
+    line-height: 30px;
+    margin: 10px 115px 40px 55px;
+  }
+}
+.fibers{
+  font-size: 24px;
+  margin: 30px 100px 40px 55px;
+}
+.fiberss{
+  li{
+    font-size: 22px;
+    margin: 30px 100px 40px 55px;
+  }
+}
+.eatfibre{
+  font-size: 30px;
+  color: black;
+  padding: 30px;
+  margin-bottom: 50px;
 }

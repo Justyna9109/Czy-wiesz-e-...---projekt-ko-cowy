@@ -13,8 +13,8 @@ class Fiber extends Component{
             <div className='pictureFiber'>
                 <img src='src/images/image4.png'/>
             </div>
-            <ul>W błonniku można wyróżnić frakcje nierozpuszczalne i rozpuszczalne w wodzie:
-                frakcje te różnią się działaniem fizjologicznym.
+            <ul className='fiberss'><a className='fibers'> W błonniku można wyróżnić frakcje nierozpuszczalne i rozpuszczalne w wodzie,
+                frakcje te różnią się działaniem fizjologicznym.</a>
                 <li>Błonnik nierozpuszczalny (celuloza i lignina) - nie rozpuszcza się w wodzie, słabych kwasach i zasadach.
                     Frakcje nierozpuszczalne błonnika mają korzystny wpływ na chłonięcie wody i zwiększanie objętości stolca,
                     co z kolei pozytywnie wpływa na perystaltykę jelit i prawidłowe wypróżnienia.</li>
@@ -25,7 +25,7 @@ class Fiber extends Component{
             <div className='pictureFiber2'>
                 <img src='src/images/image5.jpg'/>
             </div>
-            <Link to="/EatFiber"> Zalecane spożycie błonnika pokarmowego</Link>
+            <Link className="eatfibre" to="/EatFiber"> Zalecane spożycie błonnika pokarmowego >  </Link>
         </section>
     }
 }

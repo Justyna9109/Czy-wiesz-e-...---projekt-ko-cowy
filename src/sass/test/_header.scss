@@ -1,21 +1,65 @@
 header {
-  height: 80px;
-  background-color: papayawhip;
+  height: 100px;
+  background-color: whitesmoke;
   display: flex;
   justify-content: space-between;
-}
-.menu{
-    display: flex;
-    list-style: none;
-}
-li{
-  padding: 10px;
-  font-size: 20px;
-}
-.active{
-  color: black;
-  text-decoration: none;
+  .logo{
+    width: 255px;
+    height: 100px;
+    background-color: lightgreen;
+    .logotext {
+      margin-left: 20px;
+    }
+  h1 {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 28px;
 
+  }
+  }
+}
+.menu {
+  display: flex;
+  list-style: none;
+
+  li {
+    padding: 20px;
+
+    a {
+      text-decoration: none;
+      color: grey;
+      font-family: 'Lobster', cursive;
+    }
+  }
+}
+
+.anime, .anime1, .anime2, .anime3{
+  font-size: 18px;
+}
+
+.anime:hover{
+  animation: pullls 3s infinite alternat;
+}
+.anime1:hover{
+  animation: pullls 3s infinite alternate;
+}
+.anime2:hover{
+  animation: pullls 3s infinite alternate;
+}
+.anime3:hover{
+  animation: pullls 3s infinite alternate;
+}
+@keyframes pullls {
+  0%{
+    font-size: 18px;
+  }
+  100%{
+    font-size: 25px;
+  }
+}
+
+.active{
+  text-decoration: none;
+  color:white;
 }
 
 

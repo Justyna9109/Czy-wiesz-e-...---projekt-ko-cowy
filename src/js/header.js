@@ -6,12 +6,14 @@ import {
 class Navigation extends Component{
     render() {
         return (<>
-                <h1>Czy wiesz, że ... ?</h1>
-
+                <div className='logo'>
+                <h1><NavLink className='logotext' to="/">Czy wiesz, że ... ?</NavLink></h1>
+                </div>
                 <ul className="menu">
-                    <li><NavLink exact activeClassName="active" to="/Nutrical">Składniki odżywcze</NavLink></li>
-                    <li><NavLink exact activeClassName="active" to="/News">Ciekawostki</NavLink></li>
-                    <li><NavLink exact activeClassName="active" to="/Product">Jak wybrać produkt?</NavLink></li>
+                    <li><NavLink exact className="anime" activeClassName="active" to="/Leading">Wartości odżywcze</NavLink></li>
+                    <li><NavLink exact className="anime1" activeClassName="active" to="/Nutrical">Składniki odżywcze</NavLink></li>
+                    <li><NavLink exact className="anime2" activeClassName="active" to="/News">Quiz</NavLink></li>
+                    <li><NavLink exact className="anime3" activeClassName="active" to="/Product">Jak wybrać produkt?</NavLink></li>
                 </ul>
             </>
         )

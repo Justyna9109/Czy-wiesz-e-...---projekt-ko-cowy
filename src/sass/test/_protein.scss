@@ -1,0 +1,36 @@
+.protein{
+  h1{
+    font-size: 28px;
+    margin-left: 20px;
+  }
+  h3{
+    font-size: 28px;
+    margin-left: 20px;
+  }
+  p{
+    font-size: 20px;
+    margin: 10px 80px 40px 50px;
+    line-height: 30px;
+  }
+  ul{
+    li{
+      list-style: none;
+      font-size: 20px;
+      margin: 10px 80px 40px 30px;
+      line-height: 30px;
+      span{
+        font-weight: bold;
+      }
+    }
+  }
+}
+.proteinBud{
+  font-size: 24px;
+  font-weight: bold;
+}
+.proteinFirst{
+  font-size: 22px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  text-decoration: underline;
+}

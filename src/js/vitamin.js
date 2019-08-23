@@ -8,7 +8,7 @@ class Vitamin extends Component{
                 Są one zwykle potrzebne w niewielkich ilościach w pożywieniu w celu regulowania i wspierania
                 reakcji chemicznych zachodzących w organizmie. Spełniają na ogół rolę katalizatorów biologicznych.
                 Odkrycie witamin i udowodnienie ich roli w odżywianiu człowieka nastąpiło na przełomie XIX i XX w.</p>
-            <ul>Podział
+            <ul className='vitamins'><a className='vitam'> Podział</a>
                 <li>Rozpuszczalne w tłuszczach które mają zdolność gromadzenia się w tkankach.</li>
                 <div className='vitaminFats'>
                 <img src='src/images/image6.png'/>

@@ -1,0 +1,27 @@
+.newsQuiz {
+  display: flex;
+  .quiz {
+    font-size: 40px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    width: 30%;
+    height: 665px;
+    margin: 70px 30px 30px 30px;
+    text-align: center;
+    line-height: 40px;
+    background-size: cover;
+    p{
+      text-align: center;
+    }
+  }
+}
+#quiz1{
+  background-image: url("/src/images/nfz4.jpg");
+}
+#quiz2{
+  background-image: url("/src/images/nfz1.jpg");
+}
+#quiz3{
+  background-image: url("/src/images/nfz5.jpeg");
+}

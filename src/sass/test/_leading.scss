@@ -1,0 +1,41 @@
+.leadpicture{
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+}
+.leading{
+  .button {
+    display: flex;
+    justify-content: center;
+    input {
+      width: 800px;
+      height: 60px;
+    }
+
+    button {
+      width: 180px;
+      height: 68px;
+      font-size: 20px;
+    }
+  }
+}
+
+select{
+  font-size: 30px;
+  width: 500px;
+  height: 70px;
+}
+.center {
+  margin-left: 347px;
+}
+
+.options {
+  font-size: 30px;
+  margin-left: 30px;
+  line-height: 60px;
+  width: 240px;
+}
+
+
+
+

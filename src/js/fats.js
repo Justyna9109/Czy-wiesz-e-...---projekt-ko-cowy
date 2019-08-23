@@ -9,7 +9,7 @@ class Fats extends Component{
             <p>O tym, że nadmiar tłuszczów jest dla zdrowia niekorzystny, prawdopodobnie wiedzą wszyscy.
                 Mniej powszechna jest wiedza o tym, że szkodzą też niewłaściwe proporcje tłuszczów pochodzenia
                 zwierzęcego i roślinnego.</p>
-            <ul>Podział
+            <ul className='fat'><a className='fatsdivision'> Podział</a>
                 <li>zwierzęce (masło, smalec)</li>
                 <li>roślinne (oleje, margaryny)</li>
             </ul>
@@ -19,7 +19,7 @@ class Fats extends Component{
                 (tego niewidocznego). To różne wyroby cukiernicze, słodycze, przetwory mięsne, jak: wędliny,
                 w tym kiełbasy, parówki, pasztety, sery podpuszczkowe i pleśniowe, sosy ze śmietaną itd.
                 Aby unikać tłuszczu niewidocznego, należy czytać etykiety i wybierać produkty mniej tłuste.</p>
-            <ul>Kilka faktów o wartości odżywczej
+            <ul className='fatnutrition'><a className='fatsnutrition'> Kilka faktów o wartości odżywczej</a>
                 <li>Tłuszcze zwierzęce zawierają duże ilości nasyconych kwasów tłuszczowych (NKT) i cholesterolu,
                     których spożycie należy ograniczać.</li>
                 <li>Tłuszcze roślinne natomiast nie zawierają cholesterolu, mają mniej kwasów nasyconych,
