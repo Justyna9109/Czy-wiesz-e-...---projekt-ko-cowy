@@ -7,3 +7,9 @@ Projekt został stworzony dzięki takim narzędzią jak:
   * React
   * React Router
   * Sass
+  
+  Instructions
+
+* git clone https://github.com/Justyna9109/Czy-wiesz-ze---projekt-koncowy.git your-project
+* open terminal in your project npm start
+
